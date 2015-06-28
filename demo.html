@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navicon transform</title>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <meta name="description" content="NavIcon Transform" />
+  <meta name="keywords" content="transition, css3, css, nav icon, web design, mobile menu icon" />
+  <meta name="author" content="css-tricks.ir" />
+
+
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/prefixed-style.css" />
+
+  <!--[if IE]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="demo-top-bar">
+    <a href="http://css-tricks.ir/%D8%B3%D8%A7%D8%AE%D8%AA-%D8%A2%DB%8C%DA%A9%D9%88%D9%86-%D9%87%D9%85%D8%A8%D8%B1%DA%AF%D8%B1-%D8%A8%D8%A7-css/" target="_blank">خواندن مقاله مربوط به این دمو</a>
+    <a href="https://github.com/seyedi/navicon-transform" target="_blank">مشارکت در گیتهاب <i class="fa fa-github"></i></a>
+  </div>
+
+  <div class="container">
+    <a class="navicon-button larr">
+      <span class="navicon"></span>
+    </a>
+    <a class="navicon-button rarr">
+      <span class="navicon"></span>
+    </a>
+    <a class="navicon-button uarr">
+      <span class="navicon"></span>
+    </a>    
+    <a class="navicon-button x">
+      <span class="navicon"></span>
+    </a>
+    <a class="navicon-button plus">
+      <span class="navicon"></span>
+    </a>
+    <a class="navicon-button">
+      <span class="navicon"></span>
+    </a>
+  </div>
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+
+  $("a").click(function(){
+    $(this).toggleClass("open");
+  });
+
+</script>
+
+</body>
+</html>
