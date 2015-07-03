@@ -104,11 +104,11 @@
 
 /* Arrows */
 .open.rarr .navicon:before {
-  transform: translate3d(1em, 0, 0) rotate(-35deg);
+  transform: translate(1em, 0) rotate(-35deg);
   transform-origin: right top;
 }
 .open.rarr .navicon:after {
-  transform: translate3d(1em, 0, 0) rotate(35deg);
+  transform: translate(1em, 0) rotate(35deg);
   transform-origin: right bottom;
 }
 

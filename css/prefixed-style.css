@@ -158,9 +158,11 @@
 
 /* Arrows */
 .open.rarr .navicon:before {
-  -webkit-transform: translate3d(1em, 0, 0) rotate(-35deg);
-     -moz-transform: translate3d(1em, 0, 0) rotate(-35deg);
-          transform: translate3d(1em, 0, 0) rotate(-35deg);
+  -webkit-transform: translate(1em, 0) rotate(-35deg);
+     -moz-transform: translate(1em, 0) rotate(-35deg);
+      -ms-transform: translate(1em, 0) rotate(-35deg);
+       -o-transform: translate(1em, 0) rotate(-35deg);
+          transform: translate(1em, 0) rotate(-35deg);
   -webkit-transform-origin: right top;
      -moz-transform-origin: right top;
       -ms-transform-origin: right top;
@@ -168,9 +170,11 @@
           transform-origin: right top;
 }
 .open.rarr .navicon:after {
-  -webkit-transform: translate3d(1em, 0, 0) rotate(35deg);
-     -moz-transform: translate3d(1em, 0, 0) rotate(35deg);
-          transform: translate3d(1em, 0, 0) rotate(35deg);
+  -webkit-transform: translate(1em, 0) rotate(35deg);
+     -moz-transform: translate(1em, 0) rotate(35deg);
+      -ms-transform: translate(1em, 0) rotate(35deg);
+       -o-transform: translate(1em, 0) rotate(35deg);
+          transform: translate(1em, 0) rotate(35deg);
   -webkit-transform-origin: right bottom;
      -moz-transform-origin: right bottom;
       -ms-transform-origin: right bottom;
